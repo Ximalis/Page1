@@ -1,0 +1,118 @@
+@import "variables";
+footer {
+  position: relative;
+  height: 350px;
+  width: 1250px;
+}
+
+#footerInner {
+  background-image: url("images/footer_back.png");
+  position: relative;
+  left: 0;
+  top: 6px;
+  height: 300px;
+  width: 945px;
+  padding-left: $left-right-padding;
+  padding-right: $left-right-padding + 35px;
+}
+
+#footer_back_top{
+  background: rgb(255, 255, 255) url("images/footer_back_top.png") center center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -2;
+  width: 1250px;
+  height: 10px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.foo_ul_container {
+  letter-spacing: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.foo_ul {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  width: 243px;
+  display: inline-table;
+  letter-spacing: normal;
+}
+
+.foo_ul a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+  line-height: 2.429;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.75);
+}
+
+ul.foo_ul li {
+  font-size: 14px;
+  border-bottom: 1px dashed rgb(196, 196, 196);
+  list-style-type: none;
+}
+
+ul.foo_ul li:before {
+  content: "›";
+  margin-right: 10px;
+  font-size: inherit;
+  color: rgb(196, 196, 196);
+}
+
+ul.foo_ul li:last-child {
+  border-bottom: none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.foo_bottom {
+  position: relative;
+  background-color: rgb(34, 39, 47);
+  width: 1250px;
+  height: 44px;
+}
+
+.foo_bottom_p {
+  position: relative;
+  font-size: 14px;
+  color: rgb(75, 85, 102);
+  line-height: 1.429;
+  text-align: center;
+  top: 25%;
+}
+
+.foo_mob-container {
+  height: 70px;
+  width: 216px;
+  position: absolute;
+  right: -70px;
+  top: 60px;
+}
+
+.foo_mobile-phone {
+  letter-spacing: normal;
+    font-size: 24px;
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    text-align: left;
+    -moz-transform: matrix( 0.86293147428047,0,0,0.86293147428047,0,0);
+    -webkit-transform: matrix( 0.86293147428047,0,0,0.86293147428047,0,0);
+    -ms-transform: matrix( 0.86293147428047,0,0,0.86293147428047,0,0);
+}
+
+.foo_e-mail {
+  letter-spacing: normal;
+  font-size: 24px;
+  color: rgb(236, 236, 236);
+  font-weight: normal;
+  text-align: left;
+  -moz-transform: matrix(0.86293147428047, 0, 0, 0.86293147428047, 0, 0);
+  -webkit-transform: matrix(0.86293147428047, 0, 0, 0.86293147428047, 0, 0);
+  -ms-transform: matrix(0.86293147428047, 0, 0, 0.86293147428047, 0, 0);
+}

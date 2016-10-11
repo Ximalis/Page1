@@ -1,0 +1,163 @@
+@import "variables";
+.blue_section {
+  position: relative;
+  background-image: url("images/blue.png");
+  height: 487px;
+  padding-left: $left-right-padding + 30px;
+  padding-right: $left-right-padding + 30px;
+  z-index: -1;
+}
+
+/*-------------------------------------------------------*/
+
+.red_back{
+  background-image: url("images/back_red_shape.png");
+  position: relative;
+  top: 65px;
+  width: 878px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.red_span {
+  width: 800px;
+  position: relative;
+  display: table;
+  top: 10%;
+  left: 0;
+  font-size: 20px;
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*---------------------------------------------------------*/
+.three_num {
+  display: inline-table;
+  position: relative;
+  top: 100px;
+}
+
+table.three_num td {
+  position: relative;
+  left: -13px;
+  z-index: 0;
+}
+
+table.three_num th {
+  position: relative;
+  z-index: 1;
+}
+
+.backshape  {
+  border-radius: 50%;
+  background-color: rgb(72, 122, 156);
+  width: 49px;
+  height: 49px;
+}
+
+.frontshape {
+  position: relative;
+  top: 5px;
+  border-radius: 50%;
+  background-color: rgb(196, 220, 237);
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.37);
+  width: 40px;
+  height: 39px;
+  margin: 0 auto;
+}
+
+.numshape {
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.asdfg {
+  background-color: rgb(231, 239, 245);
+  width: 364px;
+  height: 41px;
+}
+
+.offer-text, .b_red{
+  position: relative;
+  top: 10px;
+  left: 20px;
+  font-size: 18px;
+  color: rgb(26, 77, 111);
+  text-transform: uppercase;
+}
+
+.b_red {
+  color: red;
+  position: static;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.white_rectangle {
+  display: inline-table;
+  position: absolute;
+  right: 164px;
+  top: 150px;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0.5px 0.866px 2px 0px rgba(96, 108, 118, 0.23);
+  width: 540px;
+  height: 275px;
+  z-index: 1;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.back_live_help {
+  position: relative;
+  top: 150px;
+  left: 200px;
+  background-image: url("images/help-back.png");
+  width: 383px;
+  height: 49px;
+  z-index: 0;
+}
+
+.live {
+  position: relative;
+  left: 40px;
+  top: 20%;
+  font-size: 20px;
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.get_now {
+  background-image: url("images/redget.png");
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 134px;
+  height: 135px;
+}
+
+.get_p_get {
+  position: relative;
+  top: 47px;
+  left: 16px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.48);
+  -moz-transform: matrix( 0.69917232961837,0.71495318273019,-0.71495318273019,0.69917232961837,0,0);
+  -webkit-transform: matrix( 0.69917232961837,0.71495318273019,-0.71495318273019,0.69917232961837,0,0);
+  -ms-transform: matrix( 0.69917232961837,0.71495318273019,-0.71495318273019,0.69917232961837,0,0);
+
+}

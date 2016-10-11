@@ -1,0 +1,25 @@
+@import "css/header.scss";
+@import "css/reset.scss";
+@import "css/menu.scss";
+@import "css/wrapper.scss";
+@import "css/footer.scss";
+@import "css/variables";
+@import "css/fonts.scss";
+
+body {
+  width: 1250px;
+  margin: 0 auto;
+  font-family: $font-family-one;
+}
+
+.get-window {
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0.5px 0.866px 2px 0px rgba(96, 108, 118, 0.23);
+  width: 540px;
+  height: 275px;
+}
+
+html {
+  background-color: lightgray;
+}

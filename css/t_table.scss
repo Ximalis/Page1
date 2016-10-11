@@ -1,0 +1,60 @@
+.table_cell {
+  background-image: url("images/back_table.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -35px;
+  height: 310px;
+  width: 310px;
+}
+
+.t_num {
+  border-bottom: 1px solid rgb(223, 224, 225);
+  //background-color: darkgrey;
+  position: relative;
+  padding-top: 30px;
+  left: 5px;
+  height: 60px;
+  width: 42px;
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(159, 159, 159);
+  vertical-align: middle;
+}
+
+.t_span {
+  text-align: justify;
+  padding-top: 7px;
+  padding-left: 17px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(223, 224, 225);
+  position: relative;
+  left: 7px;
+  font-weight: normal;
+  //background-color: lightblue;
+  width: 216px;
+  height: 73px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(123, 123, 123);
+  line-height: 1.667;
+}
+
+footer.table {
+
+}
+
+#read_more {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+    font-size: 14px;
+    font-family: "Bitter";
+    color: rgb(255, 0, 0);
+    text-align: left;
+  font-weight: bold;
+  text-decoration: none;
+}
+
